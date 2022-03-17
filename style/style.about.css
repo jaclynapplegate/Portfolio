@@ -1,0 +1,70 @@
+body {
+  background-color: #e7efc5;
+}
+
+nav {
+  color: #413c58;
+  font: "Biryani", sans-serif;
+  font-weight: 200;
+}
+
+.navbar-brand {
+  font-family: "Oooh Baby", cursive;
+}
+
+h1 {
+  font-family: "Oooh Baby", cursive;
+}
+
+h2 {
+  font-family: "Oooh Baby", cursive;
+}
+
+footer {
+  background-color: #bfd7b5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.icons {
+  color: #413c58;
+  font-size: 25px;
+  padding-top: 7px;
+  margin-right: -1600px;
+}
+
+.icons:hover {
+  color: #eabda8;
+}
+
+#copyright {
+  color: #413c58;
+  font-size: 12px;
+  padding-top: 17px;
+  margin-left: -80px;
+  font: "Biryani", sans-serif;
+  font-weight: 200;
+}
+
+.about-headline {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.about-copy {
+  text-align: justify;
+  margin: 10px 300px 0px 300px;
+}
+
+.work-headline {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.work-copy {
+  text-align: justify;
+  margin: 10px 300px 0px 300px;
+}
