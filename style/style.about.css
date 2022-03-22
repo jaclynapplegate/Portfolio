@@ -6,6 +6,7 @@ nav {
   color: #413c58;
   font: "Biryani", sans-serif;
   font-weight: 200;
+  position: fixed;
 }
 
 .navbar-brand {
@@ -14,6 +15,7 @@ nav {
 
 h1 {
   font-family: "Oooh Baby", cursive;
+  color: #413c58;
 }
 
 h2 {
@@ -22,7 +24,6 @@ h2 {
 
 footer {
   background-color: #bfd7b5;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -57,14 +58,30 @@ footer {
 .about-copy {
   text-align: justify;
   margin: 10px 300px 0px 300px;
+  font: "Biryani", sans-serif;
+  font-weight: 200;
 }
 
-.work-headline {
-  margin-left: 300px;
+#contact {
+  background-color: #eabda8;
+  margin: 10px 330px 50px 330px;
+  border-radius: 10px;
+}
+
+.contact-headline {
+  margin-left: 20px;
   margin-top: 50px;
+  text-align: center;
+  color: #413c58;
 }
 
-.work-copy {
-  text-align: justify;
-  margin: 10px 300px 0px 300px;
+.connect-icons {
+  text-align: center;
+  font-size: 80px;
+  padding: 20px;
+  color: #413c58;
+}
+
+.connect-icons:hover {
+  color: #bfd7b5;
 }
