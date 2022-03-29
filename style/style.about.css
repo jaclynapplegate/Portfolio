@@ -31,13 +31,16 @@ footer {
 }
 
 .icons {
-  color: #413c58;
-  font-size: 25px;
   padding-top: 7px;
-  margin-right: -1600px;
+  margin-left: 1180px;
 }
 
-.icons:hover {
+.icons a {
+  color: #413c58;
+  font-size: 25px;
+}
+
+.icons a:hover {
   color: #eabda8;
 }
 
@@ -77,11 +80,14 @@ footer {
 
 .connect-icons {
   text-align: center;
-  font-size: 80px;
   padding: 20px;
+}
+
+.connect-icons a {
+  font-size: 80px;
   color: #413c58;
 }
 
-.connect-icons:hover {
+.connect-icons a:hover {
   color: #bfd7b5;
 }
