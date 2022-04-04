@@ -65,6 +65,10 @@ footer {
   font-weight: 200;
 }
 
+.run-image {
+  shape-outside: border-box;
+}
+
 #contact {
   background-color: #eabda8;
   margin: 10px 330px 50px 330px;
