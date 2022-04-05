@@ -1,16 +1,23 @@
-body {
-  background-color: ;
-}
-
 nav {
   color: #413c58;
   font: "Biryani", sans-serif;
   font-weight: 200;
   background-color: #bfd7b5;
+  height: 80px;
+  text-align: end;
 }
 
 .navbar-brand {
   font-family: "Oooh Baby", cursive;
+}
+
+.navbar-toggler {
+  color: red;
+}
+
+.navbar-nav {
+  position: left;
+  color: red;
 }
 
 h1 {
@@ -136,4 +143,12 @@ footer {
   font-weight: 200;
   margin-left: 95px;
   margin-bottom: 50px;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.resume-subhead {
+  text-align: center;
 }
