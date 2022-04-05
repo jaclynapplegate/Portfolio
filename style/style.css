@@ -1,12 +1,12 @@
 body {
-  background-color: #e7efc5;
+  background-color: ;
 }
 
 nav {
   color: #413c58;
   font: "Biryani", sans-serif;
   font-weight: 200;
-  position: fixed;
+  background-color: #bfd7b5;
 }
 
 .navbar-brand {
@@ -14,12 +14,17 @@ nav {
 }
 
 h1 {
-  font-family: "Oooh Baby", cursive;
+  margin-top: 130px;
   color: #413c58;
-}
-
-h2 {
   font-family: "Oooh Baby", cursive;
+  font-size: 80px;
+}
+h2 {
+  margin-top: 0px;
+  margin-left: 100px;
+  color: #a3c4bc;
+  font: "Biryani", sans-serif;
+  font-weight: 200;
 }
 
 footer {
@@ -32,7 +37,6 @@ footer {
 
 .icons {
   padding-top: 7px;
-  margin-left: 1180px;
 }
 
 .icons a {
@@ -48,9 +52,13 @@ footer {
   color: #413c58;
   font-size: 12px;
   padding-top: 17px;
-  margin-left: -80px;
   font: "Biryani", sans-serif;
   font-weight: 200;
+}
+
+.portrait {
+  width: 200px;
+  margin-top: 50px;
 }
 
 .about-headline {
@@ -94,4 +102,38 @@ footer {
 
 .connect-icons a:hover {
   color: #bfd7b5;
+}
+
+.app-title {
+  font-family: "Oooh Baby", cursive;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.app-image {
+  max-width: 350px;
+  border: 1px solid #413c58;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.app-copy {
+  max-width: 350px;
+  text-align: justify;
+  font: "Biryani", sans-serif;
+  font-weight: 200;
+}
+
+.app-button {
+  text-align: center;
+  background-color: #eabda8;
+  border-radius: 30px;
+  border: none;
+  color: black;
+  padding: 10px;
+  font: "Biryani", sans-serif;
+  font-weight: 200;
+  margin-left: 95px;
+  margin-bottom: 50px;
 }
